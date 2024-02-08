@@ -6,7 +6,7 @@ Simple Shipt webpage clone using terraform.
   </p>
 
 # Realtime DevOps Project: Automated Static Website Hosting with Terraform and AWS Cloud
-This project aims to demonstrate the automation of static website hosting using Terraform and AWS Cloud, providing beginners with a comprehensive understanding of Terraform's concepts and its integration with AWS. By following this project, users will learn how to create a one-click automated solution for DevOps tasks, focusing on the specific example of cloning the Shipt webpage using Terraform.
+This project aims to demonstrate the automation of static website hosting using Terraform and AWS Cloud, providing with a comprehensive understanding of Terraform's concepts and its integration with AWS. By following this project, users will learn how to create a one-click automated solution for DevOps tasks, focusing on the specific example of cloning the Shipt webpage using Terraform.
 
 # Project Overview
 Objective: Set up static website hosting fully automated in just 3 seconds using Terraform and AWS Cloud.
