@@ -1,0 +1,2970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shipt</title>
+    <script type="text/javascript" src="/ruxitagentjs_ICA27NQVfhqrux_10263230921131557.js" data-dtconfig="rid=RID_664029669|rpid=796144217|domain=shipt.com|reportUrl=/rb_bf83926djj|app=12c5439b9411138d|ssc=1|cssm=n|featureHash=ICA27NQVfhqrux|msl=153600|srsr=5000|vcv=2|xb=api^bs.shipt^bs.com^bs/pulsar^bs/v1^bs/batch^p.*clarity^bs.ms^bs/collect^pgtm^bs.shipt^bs.com^bs/g^bs/collect^pcriteo^bs.com^poptimizely^bs.com^pj^bs.clarity^bs.ms^bs/collect^papi^bs.shipt^bs.com^bs/autocomplete^pmouseflow^bs.com^padsrvr^bs.org^pbranch^bs.io^pfacebook^ptr^bs.snapchat^bs.com|rdnt=0|uxrgce=1|bp=3|cuc=wm3lbonq|srms=2,0,0,0%2Finput|mdl=mdcc3=20|mel=100000|md=mdcc1=cajs_anonymous_id,mdcc2=bdocument.referrer,mdcc3=bnavigator.userAgent,mdcc4=dutm_source,mdcc5=dutm_medium,mdcc6=dutm_campaign,mdcc7=dutm_term,mdcc8=dutm_content,mdcc9=adiv#main-content h3,mdcc10=ap[class*^e^dqDeliveryPassesSection__^dq],mdcc11=banalytics.eventFactory.user.mem.cache.ajs_user_traits.store,mdcc12=adiv#main-content div.kldXuq.eVAiJX.bFtHRX.gzJly ^rb span:nth-child(2),mdcc13=bdocument.URL,mdcc15=cajs_anonymous_id,mdcc16=dpassword,mdcc17=dusername,mdcc18=cajs_user_id,mdcc19=a#sticky-header a ^rb div ^rb p,mdcc20=fx-product_grid_performance_test_web,mdcc21=a.sc-9bd9aced-8.dCrxBl,mdcc22=b__SEGWAY_EXPERIMENT_auto_renewal_language_web,mdcc24=b__SEGWAY_EXPERIMENT_cart_page_ssr_web,mdcc25=b__SEGWAY_EXPERIMENT_cart_recs_web,mdcc26=b__SEGWAY_EXPERIMENT_dietary-nutrition-filters,mdcc27=b__SEGWAY_EXPERIMENT_express_checkout_v2_web,mdcc28=b__SEGWAY_EXPERIMENT_first_order_education_web,mdcc30=b__SEGWAY_EXPERIMENT_ghp_ssr_web,mdcc31=b__SEGWAY_EXPERIMENT_lists_feature_shop_and_browse,mdcc32=b__SEGWAY_EXPERIMENT_web_membership_placement_at_checkout,mdcc33=b__SEGWAY_EXPERIMENT_web_monthly_to_annual_upsell,mdcc34=b__SEGWAY_EXPERIMENT_order_placed_web,mdcc35=b__SEGWAY_EXPERIMENT_remove_active_deals_filter_web,mdcc36=b__SEGWAY_EXPERIMENT_remove_address_entry_phase_1,mdcc38=b__SEGWAY_EXPERIMENT_retailer_location_selection_2,mdcc40=b__SEGWAY_EXPERIMENT_sponsored_copy_web,mdcc42=b__SEGWAY_EXPERIMENT_usuals_list_for_web,mdcc43=b__SEGWAY_EXPERIMENT_giftgpt_experiment,mdcc44=b__SEGWAY_EXPERIMENT_monthly_to_annual_upsell,mdcc45=b__SEGWAY_EXPERIMENT_retailer_location_selection_3_control,mdcc46=b__SEGWAY_EXPERIMENT_retailer_location_selection_3,mdcc47=b__SEGWAY_EXPERIMENT_preferred_shopper_expectation_management,mdcc48=b__SEGWAY_EXPERIMENT_cms_powered_global_home_page_web,mdcc49=b__SEGWAY_EXPERIMENT_cms_powered_retailer_home_page_web,mdcc50=b__SEGWAY_EXPERIMENT_email_capture_entry_modal,mdcc51=b__SEGWAY_EXPERIMENT_real_time_order_tracking_eta,mdcc52=b__SEGWAY_EXPERIMENT_retailer_search_page_size_reduction,mdcc53=b__SEGWAY_CREW|ssv=4|lastModification=1706763883444|tp=500,50,0,1|agentUri=/ruxitagentjs_ICA27NQVfhqrux_10263230921131557.js"></script>
+    <link rel="shortcut icon" href="https://object-storage.shipt.com/web/assets/favicon64-rebrand_90963dce1c6ced33364dae53812fcdb0.png" />
+    <link rel="dns-prefetch" href="https://cdn.rollbar.com" />
+    <link rel="preconnect" href="https://cdn.segment.io" />
+    <link rel="preconnect" href="https://gtm.shipt.com" />
+    <script async="" src="/scripts/fkrk.js" type="text/javascript" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script type="text/javascript" id="rollbar" nonce="265557a8ede6141d847ade7f4d64239c">
+        var _rollbarConfig = {
+            rollbarJsUrl: '/scripts/rollbar.2262.js',
+            enabled: 'production' !== 'local',
+            accessToken: "ff23446821b847e7b0275142ac945c77",
+            captureUncaught: true,
+            captureUnhandledRejections: true,
+            autoInstrument: {
+                log: false
+            },
+            reportLevel: "info",
+            ignoredMessages: ["Experiment JS Client", "Username has already been taken", "Invalid Username or Password", "An order cannot be updated within one hour of the delivery window", "Preflight response is not successful", "This request is unauthorized. Please log in to your account.", "Network Error", "The network connection was lost", "Failed to fetch", "Load failed", "ineligible for membership upgrade", "Address not in service area", "Please enter a valid address", "landing page not found", "Product currently unavailable in your area", "read ECONNRESET", "Product not found", "Selected store not available in provided zip code", "Service not available in your area", "Could not find product", "Card The zip code you supplied failed validation..", "password reset token expired", "Card can't be deleted while it is being used for an active order or tip.", "the retailer does not service the provided delivery address", "Sorry! You cannot add alcoholic products to an order after it is placed", "An order cannot be updated because shopping is in progress", "Account is locked because of too many incorrect login attempts", "Payment information does not match the card on file", "This delivery time is no longer available", "CVC is invalid", "Please contact customer service to complete this order at"],
+            checkIgnore: function(isUncaught, args, payload) {
+                // true = ignore
+                return window.navigator.userAgent && window.navigator.userAgent.indexOf('HeadlessChrome') !== -1
+            },
+            hostBlockList: ["criteo.com", "segment.io", "branch.io", "googletagmanager.com"],
+            payload: {
+                environment: "production",
+                client: {
+                    javascript: {
+                        code_version: "d65bce23ac80b1d5b70eb287248edb84eed35460",
+                        source_map_enabled: true
+                    }
+                }
+            },
+            scrubFields: ['phone', 'email', 'addresses', 'creditCards', 'preferences', 'password']
+        };
+        // Rollbar Snippet
+        ! function(r) {
+            var e = {};
+
+            function o(n) {
+                if (e[n]) return e[n].exports;
+                var t = e[n] = {
+                    i: n,
+                    l: !1,
+                    exports: {}
+                };
+                return r[n].call(t.exports, t, t.exports, o), t.l = !0, t.exports
+            }
+            o.m = r, o.c = e, o.d = function(r, e, n) {
+                o.o(r, e) || Object.defineProperty(r, e, {
+                    enumerable: !0,
+                    get: n
+                })
+            }, o.r = function(r) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(r, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(r, "__esModule", {
+                    value: !0
+                })
+            }, o.t = function(r, e) {
+                if (1 & e && (r = o(r)), 8 & e) return r;
+                if (4 & e && "object" == typeof r && r && r.__esModule) return r;
+                var n = Object.create(null);
+                if (o.r(n), Object.defineProperty(n, "default", {
+                        enumerable: !0,
+                        value: r
+                    }), 2 & e && "string" != typeof r)
+                    for (var t in r) o.d(n, t, function(e) {
+                        return r[e]
+                    }.bind(null, t));
+                return n
+            }, o.n = function(r) {
+                var e = r && r.__esModule ? function() {
+                    return r.default
+                } : function() {
+                    return r
+                };
+                return o.d(e, "a", e), e
+            }, o.o = function(r, e) {
+                return Object.prototype.hasOwnProperty.call(r, e)
+            }, o.p = "", o(o.s = 0)
+        }([function(r, e, o) {
+            "use strict";
+            var n = o(1),
+                t = o(5);
+            _rollbarConfig = _rollbarConfig || {}, _rollbarConfig.rollbarJsUrl = _rollbarConfig.rollbarJsUrl || "https://cdn.rollbar.com/rollbarjs/refs/tags/v2.19.3/rollbar.min.js", _rollbarConfig.async = void 0 === _rollbarConfig.async || _rollbarConfig.async;
+            var a = n.setupShim(window, _rollbarConfig),
+                l = t(_rollbarConfig);
+            window.rollbar = n.Rollbar, a.loadFull(window, document, !_rollbarConfig.async, _rollbarConfig, l)
+        }, function(r, e, o) {
+            "use strict";
+            var n = o(2),
+                t = o(3);
+
+            function a(r) {
+                return function() {
+                    try {
+                        return r.apply(this, arguments)
+                    } catch (r) {
+                        try {
+                            console.error("[Rollbar]: Internal error", r)
+                        } catch (r) {}
+                    }
+                }
+            }
+            var l = 0;
+
+            function i(r, e) {
+                this.options = r, this._rollbarOldOnError = null;
+                var o = l++;
+                this.shimId = function() {
+                    return o
+                }, "undefined" != typeof window && window._rollbarShims && (window._rollbarShims[o] = {
+                    handler: e,
+                    messages: []
+                })
+            }
+            var s = o(4),
+                d = function(r, e) {
+                    return new i(r, e)
+                },
+                c = function(r) {
+                    return new s(d, r)
+                };
+
+            function u(r) {
+                return a((function() {
+                    var e = this,
+                        o = Array.prototype.slice.call(arguments, 0),
+                        n = {
+                            shim: e,
+                            method: r,
+                            args: o,
+                            ts: new Date
+                        };
+                    window._rollbarShims[this.shimId()].messages.push(n)
+                }))
+            }
+            i.prototype.loadFull = function(r, e, o, n, t) {
+                var l = !1,
+                    i = e.createElement("script"),
+                    s = e.getElementsByTagName("script")[0],
+                    d = s.parentNode;
+                i.crossOrigin = "", i.src = n.rollbarJsUrl, o || (i.async = !0), i.onload = i.onreadystatechange = a((function() {
+                    if (!(l || this.readyState && "loaded" !== this.readyState && "complete" !== this.readyState)) {
+                        i.onload = i.onreadystatechange = null;
+                        try {
+                            d.removeChild(i)
+                        } catch (r) {}
+                        l = !0,
+                            function() {
+                                var e;
+                                if (void 0 === r._rollbarDidLoad) {
+                                    e = new Error("rollbar.js did not load");
+                                    for (var o, n, a, l, i = 0; o = r._rollbarShims[i++];)
+                                        for (o = o.messages || []; n = o.shift();)
+                                            for (a = n.args || [], i = 0; i < a.length; ++i)
+                                                if ("function" == typeof(l = a[i])) {
+                                                    l(e);
+                                                    break
+                                                }
+                                }
+                                "function" == typeof t && t(e)
+                            }()
+                    }
+                })), d.insertBefore(i, s)
+            }, i.prototype.wrap = function(r, e, o) {
+                try {
+                    var n;
+                    if (n = "function" == typeof e ? e : function() {
+                            return e || {}
+                        }, "function" != typeof r) return r;
+                    if (r._isWrap) return r;
+                    if (!r._rollbar_wrapped && (r._rollbar_wrapped = function() {
+                            o && "function" == typeof o && o.apply(this, arguments);
+                            try {
+                                return r.apply(this, arguments)
+                            } catch (o) {
+                                var e = o;
+                                throw e && ("string" == typeof e && (e = new String(e)), e._rollbarContext = n() || {}, e._rollbarContext._wrappedSource = r.toString(), window._rollbarWrappedError = e), e
+                            }
+                        }, r._rollbar_wrapped._isWrap = !0, r.hasOwnProperty))
+                        for (var t in r) r.hasOwnProperty(t) && (r._rollbar_wrapped[t] = r[t]);
+                    return r._rollbar_wrapped
+                } catch (e) {
+                    return r
+                }
+            };
+            for (var p = "log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","), f = 0; f < p.length; ++f) i.prototype[p[f]] = u(p[f]);
+            r.exports = {
+                setupShim: function(r, e) {
+                    if (r) {
+                        var o = e.globalAlias || "Rollbar";
+                        if ("object" == typeof r[o]) return r[o];
+                        r._rollbarShims = {}, r._rollbarWrappedError = null;
+                        var l = new c(e);
+                        return a((function() {
+                            e.captureUncaught && (l._rollbarOldOnError = r.onerror, n.captureUncaughtExceptions(r, l, !0), e.wrapGlobalEventHandlers && t(r, l, !0)), e.captureUnhandledRejections && n.captureUnhandledRejections(r, l, !0);
+                            var a = e.autoInstrument;
+                            return !1 !== e.enabled && (void 0 === a || !0 === a || "object" == typeof a && a.network) && r.addEventListener && (r.addEventListener("load", l.captureLoad.bind(l)), r.addEventListener("DOMContentLoaded", l.captureDomContentLoaded.bind(l))), r[o] = l, l
+                        }))()
+                    }
+                },
+                Rollbar: c
+            }
+        }, function(r, e, o) {
+            "use strict";
+
+            function n(r, e, o, n) {
+                r._rollbarWrappedError && (n[4] || (n[4] = r._rollbarWrappedError), n[5] || (n[5] = r._rollbarWrappedError._rollbarContext), r._rollbarWrappedError = null);
+                var t = e.handleUncaughtException.apply(e, n);
+                o && o.apply(r, n), "anonymous" === t && (e.anonymousErrorsPending += 1)
+            }
+            r.exports = {
+                captureUncaughtExceptions: function(r, e, o) {
+                    if (r) {
+                        var t;
+                        if ("function" == typeof e._rollbarOldOnError) t = e._rollbarOldOnError;
+                        else if (r.onerror) {
+                            for (t = r.onerror; t._rollbarOldOnError;) t = t._rollbarOldOnError;
+                            e._rollbarOldOnError = t
+                        }
+                        e.handleAnonymousErrors();
+                        var a = function() {
+                            var o = Array.prototype.slice.call(arguments, 0);
+                            n(r, e, t, o)
+                        };
+                        o && (a._rollbarOldOnError = t), r.onerror = a
+                    }
+                },
+                captureUnhandledRejections: function(r, e, o) {
+                    if (r) {
+                        "function" == typeof r._rollbarURH && r._rollbarURH.belongsToShim && r.removeEventListener("unhandledrejection", r._rollbarURH);
+                        var n = function(r) {
+                            var o, n, t;
+                            try {
+                                o = r.reason
+                            } catch (r) {
+                                o = void 0
+                            }
+                            try {
+                                n = r.promise
+                            } catch (r) {
+                                n = "[unhandledrejection] error getting 'promise' from event"
+                            }
+                            try {
+                                t = r.detail, !o && t && (o = t.reason, n = t.promise)
+                            } catch (r) {}
+                            o || (o = "[unhandledrejection] error getting 'reason' from event"), e && e.handleUnhandledRejection && e.handleUnhandledRejection(o, n)
+                        };
+                        n.belongsToShim = o, r._rollbarURH = n, r.addEventListener("unhandledrejection", n)
+                    }
+                }
+            }
+        }, function(r, e, o) {
+            "use strict";
+
+            function n(r, e, o) {
+                if (e.hasOwnProperty && e.hasOwnProperty("addEventListener")) {
+                    for (var n = e.addEventListener; n._rollbarOldAdd && n.belongsToShim;) n = n._rollbarOldAdd;
+                    var t = function(e, o, t) {
+                        n.call(this, e, r.wrap(o), t)
+                    };
+                    t._rollbarOldAdd = n, t.belongsToShim = o, e.addEventListener = t;
+                    for (var a = e.removeEventListener; a._rollbarOldRemove && a.belongsToShim;) a = a._rollbarOldRemove;
+                    var l = function(r, e, o) {
+                        a.call(this, r, e && e._rollbar_wrapped || e, o)
+                    };
+                    l._rollbarOldRemove = a, l.belongsToShim = o, e.removeEventListener = l
+                }
+            }
+            r.exports = function(r, e, o) {
+                if (r) {
+                    var t, a, l = "EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");
+                    for (t = 0; t < l.length; ++t) r[a = l[t]] && r[a].prototype && n(e, r[a].prototype, o)
+                }
+            }
+        }, function(r, e, o) {
+            "use strict";
+
+            function n(r, e) {
+                this.impl = r(e, this), this.options = e,
+                    function(r) {
+                        for (var e = function(r) {
+                                return function() {
+                                    var e = Array.prototype.slice.call(arguments, 0);
+                                    if (this.impl[r]) return this.impl[r].apply(this.impl, e)
+                                }
+                            }, o = "log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","), n = 0; n < o.length; n++) r[o[n]] = e(o[n])
+                    }(n.prototype)
+            }
+            n.prototype._swapAndProcessMessages = function(r, e) {
+                var o, n, t;
+                for (this.impl = r(this.options); o = e.shift();) n = o.method, t = o.args, this[n] && "function" == typeof this[n] && ("captureDomContentLoaded" === n || "captureLoad" === n ? this[n].apply(this, [t[0], o.ts]) : this[n].apply(this, t));
+                return this
+            }, r.exports = n
+        }, function(r, e, o) {
+            "use strict";
+            r.exports = function(r) {
+                return function(e) {
+                    if (!e && !window._rollbarInitialized) {
+                        for (var o, n, t = (r = r || {}).globalAlias || "Rollbar", a = window.rollbar, l = function(r) {
+                                return new a(r)
+                            }, i = 0; o = window._rollbarShims[i++];) n || (n = o.handler), o.handler._swapAndProcessMessages(l, o.messages);
+                        window[t] = n, window._rollbarInitialized = !0
+                    }
+                }
+            }
+        }]);
+        // End Rollbar Snippet
+    </script>
+    <script type="text/javascript" id="segment" nonce="265557a8ede6141d847ade7f4d64239c">
+        ! function() {
+            var analytics = window.analytics = window.analytics || [];
+            if (!analytics.initialize)
+                if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
+                else {
+                    analytics.invoked = !0;
+                    analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"];
+                    analytics.factory = function(e) {
+                        return function() {
+                            var t = Array.prototype.slice.call(arguments);
+                            t.unshift(e);
+                            analytics.push(t);
+                            return analytics
+                        }
+                    };
+                    for (var e = 0; e < analytics.methods.length; e++) {
+                        var key = analytics.methods[e];
+                        analytics[key] = analytics.factory(key)
+                    }
+                    analytics.load = function(key, e) {
+                        var t = document.createElement("script");
+                        t.type = "text/javascript";
+                        t.async = !0;
+                        t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";
+                        t.setAttribute("nonce", "265557a8ede6141d847ade7f4d64239c");
+                        var n = document.getElementsByTagName("script")[0];
+                        n.parentNode.insertBefore(t, n);
+                        analytics._loadOptions = e
+                    };
+                    analytics._writeKey = "PwjyeCNn3wf0fnKJSJqe7op9sQp1k2Eq";
+                    analytics.SNIPPET_VERSION = "4.15.3";
+                    analytics.load("PwjyeCNn3wf0fnKJSJqe7op9sQp1k2Eq", {
+                        // https://segment.com/docs/connections/destinations/catalog
+                        integrations: {
+                            'Segment.io': {
+                                deliveryStrategy: {
+                                    strategy: 'batching',
+                                    config: {
+                                        size: 20,
+                                        timeout: 5000
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+        }();
+    </script>
+    <script type="text/javascript" nonce="265557a8ede6141d847ade7f4d64239c">
+        window._mfq = window._mfq || [];
+        (function() {
+            var mf = document.createElement("script");
+            mf.type = "text/javascript";
+            mf.async = true;
+            mf.src = "//cdn.mouseflow.com/projects/adf2ceb3-c220-4c96-a49c-f84d433b0f9b.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+        })();
+    </script>
+    <script type="text/javascript" nonce="265557a8ede6141d847ade7f4d64239c">
+        (function() {
+            if (!"7cd3bdd8e16d4") {
+                return
+            }
+            window._uxa = window._uxa || [];
+            // NOTE: Please update src/lib/contentsquare if changed
+            var CSMaskQueryStrings = {
+                access_token: 'CS_ANONYMIZED_ACCESS_TOKEN',
+                address: 'CS_ANONYMIZED_ADDRESS',
+                // Yes, these are uppercase, see src/hooks/useSocialSignOnParams.ts
+                ID: 'CS_ANONYMIZED_ID',
+                FirstName: 'CS_ANONYMIZED_FIRST_NAME',
+                LastName: 'CS_ANONYMIZED_LAST_NAME',
+                name: 'CS_ANONYMIZED_NAME',
+                password: 'CS_ANONYMIZED_PASSWORD',
+                provider: 'CS_ANONYMIZED_PROVIDER',
+                refresh_token: 'CS_ANONYMIZED_REFRESH_TOKEN',
+                token_type: 'CS_ANONYMIZED_TOKEN_TYPE',
+                zip: 'CS_ANONYMIZED_ZIP',
+                zipcode: 'CS_ANONYMIZED_ZIPCODE',
+            };
+            // NOTE: Please update src/lib/contentsquare if changed
+            function csMaskKnownQueryStrings(search) {
+                if (!search) {
+                    return;
+                }
+                var searchParams = new URLSearchParams(search);
+                var size = Array.from(searchParams).length;
+                if (size === 0) {
+                    return;
+                }
+                Object.entries(CSMaskQueryStrings).forEach(function([key, maskValue]) {
+                    if (searchParams.has(key)) {
+                        searchParams.set(key, maskValue);
+                    }
+                });
+                window._uxa.push(['setQuery', '?' + searchParams.toString()]);
+            }
+            if (typeof CS_CONF === 'undefined') {
+                csMaskKnownQueryStrings(window.location.search);
+                window._uxa.push(['setPath', window.location.pathname + window.location.hash.replace('#', '?__')]);
+                var mt = document.createElement('script');
+                mt.type = 'text/javascript';
+                mt.async = true;
+                mt.src = '//t.contentsquare.net/uxa/7cd3bdd8e16d4.js';
+                mt.setAttribute('nonce', '265557a8ede6141d847ade7f4d64239c');
+                document.getElementsByTagName('head')[0].appendChild(mt);
+            } else {
+                csMaskKnownQueryStrings(window.location.search);
+                window._uxa.push(['trackPageview', window.location.pathname + window.location.hash.replace('#', '?__')]);
+            }
+        })();
+    </script>
+    <script type="text/javascript" nonce="265557a8ede6141d847ade7f4d64239c">
+        if ("key_live_mgzSe4jZrDc8C5nxn6Z5HbceqspxfaWN") {
+            // load Branch
+            (function(b, r, a, n, c, h, _, s, d, k) {
+                if (!b[n] || !b[n]._q) {
+                    for (; s < _.length;) c(h, _[s++]);
+                    d = r.createElement(a);
+                    d.async = 1;
+                    d.src = "https://cdn.branch.io/branch-latest.min.js";
+                    k = r.getElementsByTagName(a)[0];
+                    k.parentNode.insertBefore(d, k);
+                    b[n] = h
+                }
+            })(window, document, "script", "branch", function(b, r) {
+                b[r] = function() {
+                    b._q.push([r, arguments])
+                }
+            }, {
+                _q: [],
+                _v: 1
+            }, "addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking".split(" "), 0);
+            // init Branch
+            branch.init("key_live_mgzSe4jZrDc8C5nxn6Z5HbceqspxfaWN", {
+                nonce: "265557a8ede6141d847ade7f4d64239c"
+            });
+        }
+    </script>
+    <script type="text/javascript" src="https://resources.digital-cloud-west.medallia.com/wdcwest/3490/onsite/embed.js" nonce="265557a8ede6141d847ade7f4d64239c" async=""></script>
+    <script id="gtm-bootstrapper" type="text/javascript" nonce="265557a8ede6141d847ade7f4d64239c">
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://gtm.shipt.com/gtm.js?id=' + i + dl;
+            var n = d.querySelector('[nonce]');
+            n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'));
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T36X2F');
+    </script>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="next-head-count" content="7" />
+    <meta property="csp-nonce" content="265557a8ede6141d847ade7f4d64239c" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="manifest" href="/manifest-shipt.json" />
+    <link rel="apple-touch-icon" href="/icons/shipt-logo-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/shipt-logo-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/shipt-logo-192.png" />
+    <link href="/.well-known/apple-developer-merchantid-domain-association" />
+    <link rel="dns-prefetch" href="https://staging-images.shipt.com" />
+    <link rel="dns-prefetch" href="https://dsom-imager-prod.shipt.com" />
+    <link rel="preconnect" href="https://api.shipt.com" />
+    <link rel="preload" href="/fonts/Boing-Regular.woff" type="font/woff" as="font" crossorigin="true" />
+    <link rel="preload" href="/fonts/Boing-Semibold.woff" type="font/woff" as="font" crossorigin="true" />
+    <link rel="preload" href="/fonts/Boing-Medium.woff" type="font/woff" as="font" crossorigin="true" />
+    <link rel="preload" href="/fonts/ClaremontMedium.woff" type="font/woff" as="font" crossorigin="true" />
+    <link rel="preload" href="/css/swiper/swiper.min.css" as="style" />
+    <link rel="preload" href="/css/swiper/navigation.min.css" as="style" />
+    <link rel="preload" href="/css/swiper/pagination.min.css" as="style" />
+    <link rel="stylesheet" type="text/css" href="/css/swiper/swiper.min.css" />
+    <link rel="preload" href="/css/nprogress.css" as="style" />
+    <link rel="stylesheet" type="text/css" href="/css/swiper/navigation.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/swiper/pagination.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nprogress.css" />
+    <link nonce="265557a8ede6141d847ade7f4d64239c" rel="preload" href="/_next/static/css/b1c36aa82abaf577.css" as="style" />
+    <link nonce="265557a8ede6141d847ade7f4d64239c" rel="stylesheet" href="/_next/static/css/b1c36aa82abaf577.css" data-n-g="" /><noscript data-n-css="265557a8ede6141d847ade7f4d64239c"></noscript>
+    <script defer="" nonce="265557a8ede6141d847ade7f4d64239c" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script defer="" src="/_next/static/chunks/8529-f77814a2039a9d47.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/5974-c9e624b0b618e636.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/6037-78e443ad603cb411.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/4498-bbe1fcfc371125db.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/8844.962da88155e0ea8c.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/9590.d90b8d85184b2e1d.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/3057.ac5d60e92513aa45.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/7073.ac59bdeb5afa352c.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script defer="" src="/_next/static/chunks/7890.f7867828744272a9.js" nonce="265557a8ede6141d847ade7f4d64239c"></script>
+    <script src="/_next/static/chunks/webpack-64cd79bb945171b5.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/framework-9141d38b73bd366d.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/main-3a616f4bb66ab65c.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/shipt-chunk-d0f826c4f763b80c.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/assets-chunk-44f3603d802f94a8.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-a22d85bc5fd28126.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/9238-4045b0a95a484c03.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/2873-347634489790e5bb.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/7460-292a76da843f56e3.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/1089-d1d6b7bd5b9a11cf.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/6813-dc1dbd9ac3f660ea.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/6858-07ece9f6fdb9e19e.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/3241-bc2a63f8fe2e76b9.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/6275-c36d79250c3ce4d7.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/3434-a41339fa53f5417d.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/2929-dcc8266ce4d7a7d9.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/chunks/pages/shop/stores-d27208577815bf3f.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/hhFGbGwB5hdzNeBzCJyPn/_buildManifest.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <script src="/_next/static/hhFGbGwB5hdzNeBzCJyPn/_ssgManifest.js" nonce="265557a8ede6141d847ade7f4d64239c" defer=""></script>
+    <style data-styled="" data-styled-version="5.3.5">
+        .esPXDo {
+            font-family: 'Boing', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+            font-weight: 300;
+            -webkit-letter-spacing: 0.025rem;
+            -moz-letter-spacing: 0.025rem;
+            -ms-letter-spacing: 0.025rem;
+            letter-spacing: 0.025rem;
+            margin: 0;
+        }
+
+        /*!sc*/
+
+        data-styled.g2[id="sc-ce0f9692-0"] {
+            content: "esPXDo,"
+        }
+
+        /*!sc*/
+
+        .hYQZRf {
+            line-height: 1.5rem;
+            font-size: 1.0625rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g4[id="sc-ce0f9692-2"] {
+            content: "hYQZRf,"
+        }
+
+        /*!sc*/
+
+        .fvZOrd {
+            line-height: 1rem;
+            font-size: 0.8125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g6[id="sc-ce0f9692-4"] {
+            content: "fvZOrd,"
+        }
+
+        /*!sc*/
+
+        .kDYalJ {
+            font-family: 'Boing', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            -webkit-letter-spacing: 0.025rem;
+            -moz-letter-spacing: 0.025rem;
+            -ms-letter-spacing: 0.025rem;
+            letter-spacing: 0.025rem;
+            margin: 0;
+        }
+
+        /*!sc*/
+
+        data-styled.g7[id="sc-8ed00356-0"] {
+            content: "kDYalJ,"
+        }
+
+        /*!sc*/
+
+        .jKWVBd {
+            line-height: 1.5rem;
+            font-size: 1.0625rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g8[id="sc-8ed00356-1"] {
+            content: "jKWVBd,"
+        }
+
+        /*!sc*/
+
+        .iPgavo {
+            color: inherit;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .iPgavo path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g78[id="index-browser__CartEmptyIcon-sc-6d6941fe-0"] {
+            content: "iPgavo,"
+        }
+
+        /*!sc*/
+
+        .cjwXeu {
+            color: #302638;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .cjwXeu path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g109[id="index-browser__FacebookIcon-sc-4b2923a3-0"] {
+            content: "cjwXeu,"
+        }
+
+        /*!sc*/
+
+        .gOWDeE {
+            color: #302638;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .gOWDeE path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g121[id="index-browser__InstagramIcon-sc-3f9951cf-0"] {
+            content: "gOWDeE,"
+        }
+
+        /*!sc*/
+
+        .hTeDuJ {
+            color: #302638;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .hTeDuJ path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g123[id="index-browser__LinesTripleIcon-sc-1d8127fe-0"] {
+            content: "hTeDuJ,"
+        }
+
+        /*!sc*/
+
+        .iNWuVL {
+            color: #302638;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .iNWuVL path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g140[id="index-browser__PinterestIcon-sc-acf5a06c-0"] {
+            content: "iNWuVL,"
+        }
+
+        /*!sc*/
+
+        .cWuLNh {
+            color: #302638;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        .cWuLNh path {
+            stroke-width: 0.125rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g168[id="index-browser__TwitterIcon-sc-959a0b39-0"] {
+            content: "cWuLNh,"
+        }
+
+        /*!sc*/
+
+        .fnnYzn {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 0.5rem;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            cursor: pointer;
+            -webkit-transition: all 0.1s ease-in;
+            transition: all 0.1s ease-in;
+            -webkit-transition-property: color, background-color, border-color;
+            transition-property: color, background-color, border-color;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            border: 0.125rem solid;
+            max-width: 22.5rem;
+            width: unset;
+            border-radius: 25rem;
+            font-family: Boing, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.25rem;
+            -webkit-letter-spacing: 0.03125rem;
+            -moz-letter-spacing: 0.03125rem;
+            -ms-letter-spacing: 0.03125rem;
+            letter-spacing: 0.03125rem;
+            padding: 0.875rem 1.875rem 0.875rem 1.875rem;
+            color: #ffffff;
+            background-color: #25123A;
+            border-color: #25123A;
+        }
+
+        /*!sc*/
+
+        .fnnYzn:hover,
+        .fnnYzn:focus {
+            color: #ffffff;
+            background-color: #502D91;
+            border-color: #502D91;
+        }
+
+        /*!sc*/
+
+        .fnnYzn:active {
+            color: #ffffff;
+            background-color: #381B5A;
+            border-color: #381B5A;
+        }
+
+        /*!sc*/
+
+        .fnnYzn:disabled {
+            color: #cac9cc;
+            background-color: #ebeaeb;
+            border-color: #ebeaeb;
+        }
+
+        /*!sc*/
+
+        .fnnYzn>svg {
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g441[id="index-browser__ButtonWrapper-sc-70e049ed-0"] {
+            content: "fnnYzn,"
+        }
+
+        /*!sc*/
+
+        .gXPFVw {
+            -webkit-text-decoration: none;
+            text-decoration: none;
+        }
+
+        /*!sc*/
+
+        data-styled.g446[id="sc-55be5ec9-1"] {
+            content: "gXPFVw,"
+        }
+
+        /*!sc*/
+
+        .bJCUEW {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .bJCUEW {
+                margin-left: 2.25rem;
+                margin-right: 2.25rem;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:1280px) {
+            .bJCUEW {
+                max-width: 1080px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        /*!sc*/
+
+        .ghCAMt {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .ghCAMt {
+                margin-left: 2.25rem;
+                margin-right: 2.25rem;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:1280px) {
+            .ghCAMt {
+                max-width: 1080px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:1280px) {
+            .ghCAMt {
+                max-width: none;
+                margin-left: 2.25rem;
+                margin-right: 2.25rem;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:1440px) {
+            .ghCAMt {
+                max-width: 1280px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g447[id="sc-d36e0e8b-0"] {
+            content: "bJCUEW,ghCAMt,"
+        }
+
+        /*!sc*/
+
+        .eFJlUJ {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: start;
+            -webkit-justify-content: start;
+            -ms-flex-pack: start;
+            justify-content: start;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {
+            .eFJlUJ {
+                gap: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        @supports not (gap:50px) {
+            .eFJlUJ>*+* {
+                margin-left: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        .dUIWIk {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            margin: 32px 0;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {
+            .dUIWIk {
+                gap: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        @supports not (gap:50px) {
+            .dUIWIk>*+* {
+                margin-left: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        .coNQrQ {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        /*!sc*/
+
+        .iLXtlB {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {
+            .iLXtlB {
+                gap: 1.5rem;
+            }
+        }
+
+        /*!sc*/
+
+        @supports not (gap:50px) {
+            .iLXtlB>*+* {
+                margin-top: 1.5rem;
+            }
+        }
+
+        /*!sc*/
+
+        .koTaaR {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {
+            .koTaaR {
+                gap: 1.5rem;
+            }
+        }
+
+        /*!sc*/
+
+        @supports not (gap:50px) {
+            .koTaaR>*+* {
+                margin-left: 1.5rem;
+            }
+        }
+
+        /*!sc*/
+
+        .cldXNV {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {
+            .cldXNV {
+                gap: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        @supports not (gap:50px) {
+            .cldXNV>*+* {
+                margin-left: 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g451[id="index-browser__Stack-sc-47bf4483-0"] {
+            content: "eFJlUJ,dUIWIk,coNQrQ,iLXtlB,koTaaR,cldXNV,"
+        }
+
+        /*!sc*/
+
+        html,
+        body,
+        div,
+        article,
+        section,
+        main,
+        footer,
+        header,
+        form,
+        fieldset,
+        legend,
+        pre,
+        code,
+        a,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        ol,
+        li,
+        dl,
+        dt,
+        dd,
+        textarea,
+        table,
+        td,
+        th,
+        tr,
+        input[type="email"],
+        input[type="number"],
+        input[type="password"],
+        input[type="tel"],
+        input[type="text"],
+        input[type="url"],
+        .border-box {
+            box-sizing: border-box;
+        }
+
+        /*!sc*/
+
+        img {
+            max-width: 100%;
+        }
+
+        /*!sc*/
+
+        html {
+            background-color: #ffffff;
+        }
+
+        /*!sc*/
+
+        html,
+        body {
+            min-height: 100%;
+            width: 100%;
+        }
+
+        /*!sc*/
+
+        .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+        }
+
+        /*!sc*/
+
+        body,
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+        }
+
+        /*!sc*/
+
+        .pac-container {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+            border-radius: 0.5rem;
+            margin-top: 0.5rem;
+            padding: 0.25em;
+            z-index: 2147483647;
+        }
+
+        /*!sc*/
+
+        .pac-item {
+            color: #5C5362;
+            border: none;
+            padding: 0.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            font-size: 0.9375rem;
+            -webkit-letter-spacing: 0.0125em;
+            -moz-letter-spacing: 0.0125em;
+            -ms-letter-spacing: 0.0125em;
+            letter-spacing: 0.0125em;
+        }
+
+        /*!sc*/
+
+        .pac-item-selected {
+            background-color: #B8D5EE;
+        }
+
+        /*!sc*/
+
+        .pac-item:hover {
+            background-color: rgba(0, 0, 0, 0.025);
+        }
+
+        /*!sc*/
+
+        .pac-item-query {
+            color: #5C5362;
+            font-size: 0.9375rem;
+        }
+
+        /*!sc*/
+
+        .pac-icon {
+            display: none;
+        }
+
+        /*!sc*/
+
+        .swiper .swiper-pagination-bullets {
+            bottom: 0 !important;
+        }
+
+        /*!sc*/
+
+        .swiper .swiper-pagination .swiper-pagination-bullet-active {
+            background: #180C20;
+        }
+
+        /*!sc*/
+
+        .swiper .swiper-zoom-container:hover {
+            cursor: -webkit-zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: zoom-in;
+        }
+
+        /*!sc*/
+
+        .swiper .swiper-zoom-container:hover.is-zooming {
+            cursor: -webkit-zoom-out;
+            cursor: -moz-zoom-out;
+            cursor: zoom-out;
+            -webkit-transform: scale(3);
+            -ms-transform: scale(3);
+            transform: scale(3);
+        }
+
+        /*!sc*/
+
+        @media (prefers-reduced-motion:reduce) {
+            .swiper .swiper-zoom-container:hover,
+            .swiper .swiper-zoom-container:hover.is-zooming {
+                cursor: default;
+                -webkit-transform: none;
+                -ms-transform: none;
+                transform: none;
+            }
+        }
+
+        /*!sc*/
+
+        .is-keyboarduser .hide-keyboarduser {
+            display: none;
+        }
+
+        /*!sc*/
+
+        a:focus,
+        button:focus,
+        input:focus,
+        textarea:focus,
+        select:focus,
+        li:focus,
+        [tabindex='0']:focus,
+        [tabindex='-1']:focus,
+        label:focus-within {
+            outline-color: black;
+            outline-style: dashed;
+            outline-width: 1px;
+            outline-offset: 1px;
+            -moz-outline-radius: 4px;
+        }
+
+        /*!sc*/
+
+        body:not(.is-keyboarduser) *:focus,
+        body:not(.is-keyboarduser) label:focus-within {
+            outline: none;
+        }
+
+        /*!sc*/
+
+        data-styled.g454[id="sc-global-khAKpZ1"] {
+            content: "sc-global-khAKpZ1,"
+        }
+
+        /*!sc*/
+
+        .iaMJuu {
+            width: 100%;
+            position: relative;
+            background-color: #f7f4ea;
+        }
+
+        /*!sc*/
+
+        data-styled.g463[id="sc-ecfaddb4-0"] {
+            content: "iaMJuu,"
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {
+            .hxkfVo {
+                padding: 0 1.5rem 3.25rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .hxkfVo {
+                padding: 0 0 4rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g464[id="sc-ecfaddb4-1"] {
+            content: "hxkfVo,"
+        }
+
+        /*!sc*/
+
+        .cRDpnj {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: 3.8125rem;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .cRDpnj {
+                -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                margin-top: 7.25rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g465[id="sc-ecfaddb4-2"] {
+            content: "cRDpnj,"
+        }
+
+        /*!sc*/
+
+        .ikLrbq {
+            margin-bottom: 1rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g466[id="sc-ecfaddb4-3"] {
+            content: "ikLrbq,"
+        }
+
+        /*!sc*/
+
+        .lfNPED {
+            margin-bottom: 2rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g467[id="sc-ecfaddb4-4"] {
+            content: "lfNPED,"
+        }
+
+        /*!sc*/
+
+        .doYRlb {
+            color: #382F40;
+        }
+
+        /*!sc*/
+
+        data-styled.g468[id="sc-ecfaddb4-5"] {
+            content: "doYRlb,"
+        }
+
+        /*!sc*/
+
+        .eerwcs {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        /*!sc*/
+
+        data-styled.g469[id="sc-ecfaddb4-6"] {
+            content: "eerwcs,"
+        }
+
+        /*!sc*/
+
+        .dDOmRw {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: flex-end;
+            -webkit-box-align: flex-end;
+            -ms-flex-align: flex-end;
+            align-items: flex-end;
+        }
+
+        /*!sc*/
+
+        data-styled.g470[id="sc-ecfaddb4-7"] {
+            content: "dDOmRw,"
+        }
+
+        /*!sc*/
+
+        .cvpRYO {
+            color: #502D91;
+            font-size: 0.8125rem;
+            line-height: 1rem;
+            -webkit-text-decoration: underline;
+            text-decoration: underline;
+            margin: 1rem 0.5rem 0 0;
+        }
+
+        /*!sc*/
+
+        data-styled.g471[id="sc-ecfaddb4-8"] {
+            content: "cvpRYO,"
+        }
+
+        /*!sc*/
+
+        .bUagor {
+            height: 1rem;
+            background-color: #CECBD0;
+            width: 0.0625rem;
+            margin-right: 0.5rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g472[id="sc-ecfaddb4-9"] {
+            content: "bUagor,"
+        }
+
+        /*!sc*/
+
+        .fsUUtE {
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        data-styled.g473[id="sc-ecfaddb4-10"] {
+            content: "fsUUtE,"
+        }
+
+        /*!sc*/
+
+        .gcBpvK {
+            width: 100%;
+            position: relative;
+            background-color: #f7f4ea;
+        }
+
+        /*!sc*/
+
+        data-styled.g474[id="sc-5c7a83a1-0"] {
+            content: "gcBpvK,"
+        }
+
+        /*!sc*/
+
+        .giAYcN {
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -webkit-box-pack: start;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .giAYcN {
+                -webkit-flex-flow: wrap row;
+                -ms-flex-flow: wrap row;
+                flex-flow: wrap row;
+                -webkit-box-pack: space-evenly;
+                -webkit-justify-content: space-evenly;
+                -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g475[id="sc-5c7a83a1-1"] {
+            content: "giAYcN,"
+        }
+
+        /*!sc*/
+
+        .kzsWdV {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 0 3rem 0 0;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .kzsWdV {
+                padding: 0;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g476[id="sc-5c7a83a1-2"] {
+            content: "kzsWdV,"
+        }
+
+        /*!sc*/
+
+        .gxoLYS {
+            margin: 0 0 0.5rem;
+            text-transform: uppercase;
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        data-styled.g477[id="sc-5c7a83a1-3"] {
+            content: "gxoLYS,"
+        }
+
+        /*!sc*/
+
+        .iduCCq {
+            margin: 0;
+            margin-bottom: 1rem;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .iduCCq {
+                margin-bottom: 2rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g478[id="sc-5c7a83a1-4"] {
+            content: "iduCCq,"
+        }
+
+        /*!sc*/
+
+        .inEQlw {
+            padding: 0.25rem 0;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            display: inline-block;
+            color: #382F40;
+        }
+
+        /*!sc*/
+
+        .inEQlw:hover {
+            -webkit-text-decoration: underline;
+            text-decoration: underline;
+        }
+
+        /*!sc*/
+
+        data-styled.g479[id="sc-5c7a83a1-5"] {
+            content: "inEQlw,"
+        }
+
+        /*!sc*/
+
+        .dUMYCG {
+            min-height: 100vh;
+            padding-bottom: 1.5rem;
+        }
+
+        /*!sc*/
+
+        data-styled.g485[id="sc-bd0b4679-0"] {
+            content: "dUMYCG,"
+        }
+
+        /*!sc*/
+
+        .kuDYiQ {
+            display: null;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            text-align: center;
+            font-family: Boing, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            line-height: 1rem;
+            -webkit-letter-spacing: 0.0625rem;
+            -moz-letter-spacing: 0.0625rem;
+            -ms-letter-spacing: 0.0625rem;
+            letter-spacing: 0.0625rem;
+            cursor: pointer;
+            -webkit-transition: all 0.1s ease-in;
+            transition: all 0.1s ease-in;
+            -webkit-transition-property: color, background-color, border-color;
+            transition-property: color, background-color, border-color;
+            -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+            border: 0.125rem solid;
+        }
+
+        /*!sc*/
+
+        data-styled.g489[id="sc-4b8cf3fb-0"] {
+            content: "kuDYiQ,"
+        }
+
+        /*!sc*/
+
+        .ErdcD {
+            border: none;
+            background-color: transparent;
+        }
+
+        /*!sc*/
+
+        .ErdcD:hover,
+        .ErdcD:focus,
+        .ErdcD:active {
+            background-color: transparent;
+        }
+
+        /*!sc*/
+
+        data-styled.g491[id="sc-cd613bac-1"] {
+            content: "ErdcD,"
+        }
+
+        /*!sc*/
+
+        .kocSud {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {}
+
+        /*!sc*/
+
+        @supports not (gap:50px) {}
+
+        /*!sc*/
+
+        .ereGdi {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        /*!sc*/
+
+        @supports (gap:50px) {}
+
+        /*!sc*/
+
+        @supports not (gap:50px) {}
+
+        /*!sc*/
+
+        data-styled.g592[id="sc-9f158ad0-0"] {
+            content: "kocSud,ereGdi,"
+        }
+
+        /*!sc*/
+
+        .czwjqG {
+            position: relative;
+            display: inline-block;
+        }
+
+        /*!sc*/
+
+        data-styled.g708[id="sc-5d435d4e-0"] {
+            content: "czwjqG,"
+        }
+
+        /*!sc*/
+
+        .iwJBDq {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 0.25rem;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 45px;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .iwJBDq {
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g710[id="sc-19dc0141-0"] {
+            content: "iwJBDq,"
+        }
+
+        /*!sc*/
+
+        .bWzXtc {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0;
+            color: #180C20;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .bWzXtc {
+                margin-right: 0;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g711[id="sc-19dc0141-1"] {
+            content: "bWzXtc,"
+        }
+
+        /*!sc*/
+
+        .dRLcMX {
+            height: 24px;
+            position: relative;
+        }
+
+        /*!sc*/
+
+        data-styled.g712[id="sc-19dc0141-2"] {
+            content: "dRLcMX,"
+        }
+
+        /*!sc*/
+
+        .RnqMW {
+            width: 100%;
+        }
+
+        /*!sc*/
+
+        data-styled.g739[id="sc-e915f54a-0"] {
+            content: "RnqMW,"
+        }
+
+        /*!sc*/
+
+        .fyUWkC {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        /*!sc*/
+
+        data-styled.g740[id="sc-e915f54a-1"] {
+            content: "fyUWkC,"
+        }
+
+        /*!sc*/
+
+        .jxVbp {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        /*!sc*/
+
+        data-styled.g741[id="sc-e915f54a-2"] {
+            content: "jxVbp,"
+        }
+
+        /*!sc*/
+
+        .gOdSCU {
+            width: 100%;
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {
+            .gOdSCU {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g742[id="sc-e915f54a-3"] {
+            content: "gOdSCU,"
+        }
+
+        /*!sc*/
+
+        .hjpbwi {
+            background-color: transparent;
+            font: inherit;
+            padding: 0;
+            width: 100%;
+            height: 2.25rem;
+            border: none;
+            text-overflow: ellipsis;
+            border-radius: 1rem;
+            text-indent: 1rem;
+            caret-color: #502D91;
+        }
+
+        /*!sc*/
+
+        .hjpbwi::-webkit-input-placeholder {
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        .hjpbwi::-moz-placeholder {
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        .hjpbwi:-ms-input-placeholder {
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        .hjpbwi::placeholder {
+            color: #180C20;
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {
+            .hjpbwi {
+                display: none;
+                box-shadow: none;
+                text-indent: 0;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g743[id="sc-e915f54a-4"] {
+            content: "hjpbwi,"
+        }
+
+        /*!sc*/
+
+        .dRaREJ {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            height: 3rem;
+            width: 100%;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .dRaREJ {
+                display: none;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g744[id="sc-e915f54a-5"] {
+            content: "dRaREJ,"
+        }
+
+        /*!sc*/
+
+        .hHmWco {
+            display: block;
+        }
+
+        /*!sc*/
+
+        data-styled.g745[id="sc-e915f54a-6"] {
+            content: "hHmWco,"
+        }
+
+        /*!sc*/
+
+        .hFvxTH {
+            height: 1rem;
+            width: 1rem;
+            fill: #502D91;
+            vertical-align: middle;
+            margin-right: .5rem;
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {}
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .hFvxTH {
+                display: none;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g747[id="sc-e915f54a-8"] {
+            content: "hFvxTH,"
+        }
+
+        /*!sc*/
+
+        .cuedpT {
+            border-radius: 100%;
+            min-width: 2.5rem;
+            height: 2.5rem;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {
+            .cuedpT {
+                display: none;
+            }
+        }
+
+        /*!sc*/
+
+        .cuedpT svg {
+            height: 1rem;
+            width: 1rem;
+            fill: #FFFFFF;
+        }
+
+        /*!sc*/
+
+        data-styled.g749[id="sc-e915f54a-10"] {
+            content: "cuedpT,"
+        }
+
+        /*!sc*/
+
+        .kEbDFj {
+            width: 100%;
+            height: 75px;
+            border-radius: 0.125rem;
+            position: relative;
+            background-color: #e2e2e2;
+            overflow: hidden;
+        }
+
+        /*!sc*/
+
+        .kEbDFj::after {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+            background: linear-gradient( 90deg, transparent, rgb(255 255 255 / 20%), transparent);
+            -webkit-animation: efYAKb 1.5s infinite;
+            animation: efYAKb 1.5s infinite;
+        }
+
+        /*!sc*/
+
+        .dWVsyM {
+            width: 100%;
+            height: 76px;
+            border-radius: 0.125rem;
+            position: relative;
+            background-color: #e2e2e2;
+            overflow: hidden;
+        }
+
+        /*!sc*/
+
+        .dWVsyM::after {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+            background: linear-gradient( 90deg, transparent, rgb(255 255 255 / 20%), transparent);
+            -webkit-animation: efYAKb 1.5s infinite;
+            animation: efYAKb 1.5s infinite;
+        }
+
+        /*!sc*/
+
+        .iLKOPP {
+            width: 200px;
+            height: 150px;
+            border-radius: 0.125rem;
+            position: relative;
+            background-color: #e2e2e2;
+            overflow: hidden;
+        }
+
+        /*!sc*/
+
+        .iLKOPP::after {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+            background: linear-gradient( 90deg, transparent, rgb(255 255 255 / 20%), transparent);
+            -webkit-animation: efYAKb 1.5s infinite;
+            animation: efYAKb 1.5s infinite;
+        }
+
+        /*!sc*/
+
+        data-styled.g766[id="sc-f962f4b-0"] {
+            content: "kEbDFj,dWVsyM,iLKOPP,"
+        }
+
+        /*!sc*/
+
+        .buPIAF {
+            -webkit-transition-property: right, left, width, top;
+            transition-property: right, left, width, top;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+            top: 2.5rem;
+            z-index: 1;
+            position: absolute;
+            padding: 3% 1rem;
+            margin: 0 auto;
+            right: -1.875rem;
+            left: -1.875rem;
+            width: 100%;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .buPIAF {
+                top: -1.875rem;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .buPIAF {
+                width: 50%;
+                max-width: 45.5rem;
+                padding: 3.75rem 1rem;
+                right: 0%;
+                left: 0%;
+            }
+        }
+
+        /*!sc*/
+
+        @media (min-width:1280px) {
+            .buPIAF {
+                width: 45.5rem;
+                max-width: 45.5rem;
+                padding: 3.75rem 1rem;
+                right: 0%;
+                left: 0%;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g798[id="sc-74317131-0"] {
+            content: "buPIAF,"
+        }
+
+        /*!sc*/
+
+        .gzaSyH {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            border-radius: 62.4375rem;
+            padding: 0.25rem;
+            background-color: #FFFFFF;
+            -webkit-transition: height 0.6s ease, box-shadow 0.3s ease;
+            transition: height 0.6s ease, box-shadow 0.3s ease;
+            height: 3rem;
+            box-shadow: 0rem 0.125rem 0.5rem 0rem #180C2033;
+        }
+
+        /*!sc*/
+
+        .gzaSyH:focus-within {
+            border: 0.125rem solid #241239;
+            padding: 0.125rem;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .gzaSyH {
+                background-color: #FFFFFF;
+                height: 4.125rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g799[id="sc-74317131-1"] {
+            content: "gzaSyH,"
+        }
+
+        /*!sc*/
+
+        .jquLak {
+            position: relative;
+            color: #5C5362;
+        }
+
+        /*!sc*/
+
+        .jquLak .sc-e915f54a-10 {
+            -webkit-transition-property: min-width, height;
+            transition-property: min-width, height;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+            min-width: 3.688rem;
+            height: 3.688rem;
+        }
+
+        /*!sc*/
+
+        .jquLak .sc-e915f54a-10 svg {
+            -webkit-transition-property: width, height;
+            transition-property: width, height;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .jquLak .sc-e915f54a-3 {
+                -webkit-transition: font-size 0.6s ease;
+                transition: font-size 0.6s ease;
+                font-size: 1.5rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g800[id="sc-74317131-2"] {
+            content: "jquLak,"
+        }
+
+        /*!sc*/
+
+        .iCDnC {
+            margin-right: 0;
+            color: #FFFFFF;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .iCDnC {
+                color: #FFFFFF;
+            }
+        }
+
+        /*!sc*/
+
+        .iCDnC:hover,
+        .iCDnC:focus,
+        .iCDnC:active {
+            color: #DED9F7;
+        }
+
+        /*!sc*/
+
+        data-styled.g805[id="sc-48e7b7a1-0"] {
+            content: "iCDnC,"
+        }
+
+        /*!sc*/
+
+        .eEyyQS {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border: none;
+            margin-right: 24px;
+        }
+
+        /*!sc*/
+
+        data-styled.g1588[id="sc-f4102112-0"] {
+            content: "eEyyQS,"
+        }
+
+        /*!sc*/
+
+        .kIDucW {
+            top: -0.0625rem;
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            height: 7.8125rem;
+            min-width: 100%;
+            overflow: hidden;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .kIDucW {
+                height: 4.6875rem;
+                overflow: visible;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1602[id="sc-a1bfa56f-0"] {
+            content: "kIDucW,"
+        }
+
+        /*!sc*/
+
+        .fpKEii {
+            position: absolute;
+        }
+
+        /*!sc*/
+
+        data-styled.g1603[id="sc-a1bfa56f-1"] {
+            content: "fpKEii,"
+        }
+
+        /*!sc*/
+
+        .isduWh {
+            width: 100%;
+            -webkit-transition-property: background-color, height;
+            transition-property: background-color, height;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+            background-color: #241239;
+            -webkit-clip-path: ellipse(70% 75% at 50% 25%);
+            clip-path: ellipse(70% 75% at 50% 25%);
+            height: 6rem;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .isduWh {
+                -webkit-clip-path: ellipse(55% 115% at 50% -20%);
+                clip-path: ellipse(55% 115% at 50% -20%);
+                background-color: #241239;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1604[id="sc-a1bfa56f-2"] {
+            content: "isduWh,"
+        }
+
+        /*!sc*/
+
+        .fthoHX {
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 6.25rem;
+            height: 2.25rem;
+            -webkit-transition: opacity 0.6s ease 0s;
+            transition: opacity 0.6s ease 0s;
+            opacity: 1;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .fthoHX {
+                opacity: 1;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1605[id="sc-a1bfa56f-3"] {
+            content: "fthoHX,"
+        }
+
+        /*!sc*/
+
+        .gYLxlK {
+            color: #ffffff;
+        }
+
+        /*!sc*/
+
+        data-styled.g1606[id="sc-a1bfa56f-4"] {
+            content: "gYLxlK,"
+        }
+
+        /*!sc*/
+
+        .cLflud {
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .cLflud {
+                gap: 1.5625rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1607[id="sc-a1bfa56f-5"] {
+            content: "cLflud,"
+        }
+
+        /*!sc*/
+
+        .kdhkjD {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .kdhkjD {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: start;
+                -webkit-justify-content: flex-start;
+                -ms-flex-pack: start;
+                justify-content: flex-start;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1608[id="sc-a1bfa56f-6"] {
+            content: "kdhkjD,"
+        }
+
+        /*!sc*/
+
+        .gZiCK {
+            width: 100%;
+            z-index: 999;
+            top: 0;
+            position: -webkit-sticky;
+            position: sticky;
+        }
+
+        /*!sc*/
+
+        data-styled.g1609[id="sc-a1bfa56f-7"] {
+            content: "gZiCK,"
+        }
+
+        /*!sc*/
+
+        .ednpho {
+            margin-right: 0;
+        }
+
+        /*!sc*/
+
+        .ednpho svg {
+            color: #FFFFFF;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .ednpho svg {
+                color: #FFFFFF;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1610[id="sc-a1bfa56f-8"] {
+            content: "ednpho,"
+        }
+
+        /*!sc*/
+
+        .ilIhKV {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 72px;
+            padding: 0.5rem;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .ilIhKV {
+                padding: 0;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1611[id="sc-a1bfa56f-9"] {
+            content: "ilIhKV,"
+        }
+
+        /*!sc*/
+
+        .geFiZg {
+            position: relative;
+            background-color: #241239;
+            -webkit-transition: background-color 0.6s ease 0s;
+            transition: background-color 0.6s ease 0s;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .geFiZg {
+                background-color: #241239;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1612[id="sc-a1bfa56f-10"] {
+            content: "geFiZg,"
+        }
+
+        /*!sc*/
+
+        .gYKXjE {
+            position: relative;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .gYKXjE {
+                display: none;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g1613[id="sc-a1bfa56f-11"] {
+            content: "gYKXjE,"
+        }
+
+        /*!sc*/
+
+        .bJUqtn {
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        /*!sc*/
+
+        data-styled.g2751[id="sc-3542449f-0"] {
+            content: "bJUqtn,"
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .eiXJLC {
+                display: none;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g2752[id="sc-3542449f-1"] {
+            content: "eiXJLC,"
+        }
+
+        /*!sc*/
+
+        .bdMeco {
+            display: none;
+        }
+
+        /*!sc*/
+
+        @media (min-width:768px) {
+            .bdMeco {
+                display: initial;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g2753[id="sc-3542449f-2"] {
+            content: "bdMeco,"
+        }
+
+        /*!sc*/
+
+        .cfNZgA {
+            margin-top: 3rem;
+        }
+
+        /*!sc*/
+
+        @media (max-width:767px) {
+            .cfNZgA {
+                padding: 0 1rem 1rem;
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g2754[id="sc-3542449f-3"] {
+            content: "cfNZgA,"
+        }
+
+        /*!sc*/
+
+        @-webkit-keyframes efYAKb {
+            100% {
+                -webkit-transform: translateX(100%);
+                -ms-transform: translateX(100%);
+                transform: translateX(100%);
+            }
+        }
+
+        /*!sc*/
+
+        @keyframes efYAKb {
+            100% {
+                -webkit-transform: translateX(100%);
+                -ms-transform: translateX(100%);
+                transform: translateX(100%);
+            }
+        }
+
+        /*!sc*/
+
+        data-styled.g2776[id="sc-keyframes-efYAKb"] {
+            content: "efYAKb,"
+        }
+
+        /*!sc*/
+    </style>
+</head>
+
+<body><noscript><iframe src="https://gtm.shipt.com/ns.html?id=GTM-T36X2F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="__next">
+        <header id="sticky-header" class="sc-a1bfa56f-7 gZiCK">
+            <div class="sc-a1bfa56f-10 geFiZg">
+                <div class="sc-d36e0e8b-0 sc-a1bfa56f-9 bJCUEW ilIhKV">
+                    <div direction="row" class="sc-9f158ad0-0 sc-9f158ad0-2 sc-a1bfa56f-5 kocSud cLflud"><button class="sc-4b8cf3fb-0 kuDYiQ sc-cd613bac-1 sc-f4102112-0 ErdcD eEyyQS sc-a1bfa56f-8 ednpho" aria-haspopup="dialog" aria-label="main menu"><svg fill="none" viewBox="0 0 24 24" class="index-browser__LinesTripleIcon-sc-1d8127fe-0 hTeDuJ"><path clip-rule="evenodd" d="M2.5 7H21.5C22.05 7 22.5 6.55 22.5 6C22.5 5.45 22.05 5 21.5 5H2.5C1.95 5 1.5 5.45 1.5 6C1.5 6.55 1.95 7 2.5 7ZM21.5 13H2.5C1.95 13 1.5 12.55 1.5 12C1.5 11.45 1.95 11 2.5 11H21.5C22.05 11 22.5 11.45 22.5 12C22.5 12.55 22.05 13 21.5 13ZM21.5 19H2.5C1.95 19 1.5 18.55 1.5 18C1.5 17.45 1.95 17 2.5 17H21.5C22.05 17 22.5 17.45 22.5 18C22.5 18.55 22.05 19 21.5 19Z" fill="currentColor" fill-rule="evenodd"></path></svg></button>
+                        <div
+                            class="sc-a1bfa56f-6 kdhkjD">
+                            <a class="sc-55be5ec9-1 gXPFVw" href="/shop/stores">
+                                <div class="sc-a1bfa56f-3 fthoHX"><svg fill="none" height="36" viewBox="0 0 113 37" width="100" aria-label="Shipt logo" class="index-browser__LogoHorizontalIcon-sc-a6929a16-0 ksdcsr sc-a1bfa56f-4 gYLxlK"><path d="M11.2765 5.11375C13.1347 5.11375 14.7888 5.37952 16.2387 5.91107C17.6886 6.44261 18.8096 7.0684 19.6036 7.7922C20.1215 8.25588 20.8947 9.01361 20.8947 9.01361L16.855 13.1246C16.855 13.1246 16.0459 12.5497 15.6622 12.2651C14.0988 11.1134 12.6262 10.5366 11.2425 10.5366C10.4259 10.5366 9.74722 10.6893 9.20279 10.9946C8.65837 11.3 8.38616 11.7128 8.38616 12.2311C8.38616 13.0454 8.99863 13.5977 10.2217 13.8917L14.5733 14.8738C19.1045 15.8897 21.371 18.2741 21.371 22.0251C21.371 24.1041 20.509 25.9287 18.7869 27.4988C17.0648 29.069 14.6281 29.855 11.4788 29.855C9.34835 29.855 7.47878 29.5496 5.87009 28.9389C4.26139 28.3282 2.96838 27.5497 1.99485 26.5997C1.58842 26.1964 0.630005 25.2332 0.630005 25.2332L5.27651 21.1844C5.27651 21.1844 6.16309 21.9365 6.51659 22.3003C7.9665 23.7008 9.66593 24.4019 11.6149 24.4019C12.5657 24.4019 13.3087 24.221 13.8417 23.8591C14.3748 23.4972 14.6414 23.0693 14.6414 22.5717C14.6414 21.9836 14.3975 21.5331 13.9098 21.2165C13.4221 20.8998 12.647 20.6284 11.5809 20.4022L7.84173 19.5879C6.02888 19.2034 4.56196 18.4193 3.43908 17.2318C2.3181 16.0462 1.75666 14.5496 1.75666 12.7401C1.75666 10.5253 2.6508 8.70072 4.44286 7.26631C6.23303 5.8319 8.51092 5.11375 11.2765 5.11375Z" fill="currentColor"></path><path d="M35.2539 29.3479V20.9413C35.2539 19.9027 34.959 19.0658 34.3692 18.4325C33.7794 17.801 32.9987 17.4843 32.0232 17.4843C31.0251 17.4843 30.2274 17.801 29.6263 18.4325C29.0251 19.0658 28.7265 19.9008 28.7265 20.9413V29.346L22.8455 29.3931V5.62266H28.7227L28.7265 13.8917C30.0856 12.6722 31.8077 12.0615 33.8928 12.0615C36.0686 12.0615 37.8191 12.7514 39.1442 14.1292C40.4694 15.5071 41.1329 17.2242 41.1329 19.2807V29.3479H35.2539Z" fill="currentColor"></path><path d="M48.613 9.92212C47.9552 10.5781 47.1631 10.906 46.2331 10.906C45.303 10.906 44.5109 10.5781 43.8531 9.92212C43.1953 9.26618 42.8682 8.4764 42.8682 7.54903C42.8682 6.62355 43.1971 5.83189 43.8531 5.17594C44.5109 4.52 45.303 4.19391 46.2331 4.19391C47.1612 4.19391 47.9552 4.52188 48.613 5.17594C49.2709 5.83189 49.5979 6.62166 49.5979 7.54903C49.5979 8.4764 49.2709 9.26618 48.613 9.92212ZM49.1575 29.3479H43.2765V12.5704H49.1575V29.3479Z" fill="currentColor"></path><path d="M67.6149 14.4854C66.0062 12.8701 64.08 12.0615 61.8361 12.0615C59.906 12.0615 58.4013 12.6401 57.3144 13.7918V12.5704H56.4977H52.2482H51.4656V13.3507V36.0939V36.8743H52.2482H56.4977H57.3144V20.9789C57.3144 20.0308 57.6433 19.2165 58.2992 18.538C58.9552 17.8594 59.7605 17.522 60.7132 17.522C61.6641 17.522 62.4694 17.8613 63.1272 18.538C63.7851 19.2165 64.1121 20.0289 64.1121 20.9789C64.1121 21.927 63.7832 22.7413 63.1272 23.4199C62.4694 24.0984 61.666 24.4358 60.7132 24.4358C60.286 24.4358 59.8569 24.4113 59.4902 24.3623V29.608C60.1348 29.7739 60.8815 29.8587 61.7321 29.8587C64.0214 29.8587 65.976 29.035 67.596 27.3838C69.2161 25.7345 70.027 23.5763 70.027 20.9092C70.027 18.242 69.2236 16.1008 67.6149 14.4854Z" fill="currentColor"></path><path d="M83.7851 26.9861L81.3768 23.173C81.3768 23.173 81.0705 23.4255 80.39 23.8553C79.8909 24.172 79.4391 24.3303 79.0308 24.3303C78.1461 24.3303 77.7057 23.8101 77.7057 22.7715V22.4266H77.7189V17.4165H82.2596H83.0762V16.6022V13.3508V12.5704H82.2596H77.7189V7.65647H76.9231H72.6395H71.8229V8.43682V22.4303V24.2323C71.8229 26.0851 72.4127 27.4743 73.5904 28.4017C74.7681 29.3291 76.2085 29.7909 77.908 29.7909C78.9949 29.7909 80.0214 29.6156 80.9836 29.265C81.9458 28.9144 82.7114 28.413 83.2785 27.757C83.5412 27.5384 83.7851 26.9861 83.7851 26.9861Z" fill="currentColor"></path><path d="M100.921 30.7428C96.5923 30.7428 93.1972 29.6495 91.5054 28.9691C89.9609 28.3489 89.0044 26.8222 89.1216 25.171L89.9647 11.4583L94.1481 11.7147L93.3201 25.1917C95.7832 26.1379 101.675 27.7627 108.524 25.1635C108.42 23.6518 107.87 15.7088 107.551 11.0719C103.364 13.1774 99.8343 13.3395 97.2256 11.5168C95.5885 10.3726 94.649 8.53297 94.6471 6.47089C94.6452 4.3466 95.6509 2.36934 97.3428 1.17997C98.9118 0.0773043 100.761 -0.265748 102.549 0.214902C104.532 0.748329 106.271 2.26756 107.197 4.28063L103.388 6.02605C102.98 5.14203 102.241 4.46158 101.458 4.25047C100.868 4.09214 100.313 4.20524 99.7568 4.59541C99.1897 4.99313 98.8381 5.70939 98.84 6.46335C98.84 6.86483 98.9439 7.60937 99.6339 8.0919C101.235 9.21153 104.452 8.36144 108.239 5.81871C108.9 5.37388 109.757 5.34372 110.451 5.73766C111.424 6.29182 111.479 7.07971 111.555 8.16918L112.727 25.1163C112.857 26.7939 111.893 28.332 110.324 28.9502C106.934 30.281 103.732 30.7428 100.921 30.7428Z" fill="#23CC6B"></path></svg></div>
+                            </a>
+                    </div>
+                </div>
+                <div direction="row" class="sc-9f158ad0-0 sc-9f158ad0-2 kocSud"><button aria-label="0 carts in carts. Click to view carts." class="sc-19dc0141-1 bWzXtc sc-48e7b7a1-0 iCDnC"><div class="sc-19dc0141-0 iwJBDq"><div class="sc-19dc0141-2 dRLcMX"><div class="sc-5d435d4e-0 czwjqG"><svg fill="none" viewBox="0 0 24 24" class="index-browser__CartEmptyIcon-sc-6d6941fe-0 iPgavo"><path d="M10.35 22.34C10.7159 22.34 11.0736 22.2315 11.3778 22.0282C11.682 21.825 11.9192 21.536 12.0592 21.198C12.1992 20.8599 12.2358 20.488 12.1645 20.1291C12.0931 19.7702 11.9169 19.4406 11.6581 19.1819C11.3994 18.9231 11.0698 18.7469 10.7109 18.6756C10.3521 18.6042 9.98008 18.6408 9.64204 18.7808C9.30399 18.9209 9.01506 19.158 8.81178 19.4622C8.6085 19.7664 8.5 20.1241 8.5 20.49C8.5 20.733 8.54785 20.9735 8.64082 21.198C8.73379 21.4224 8.87006 21.6264 9.04185 21.7982C9.21364 21.97 9.41758 22.1062 9.64204 22.1992C9.86649 22.2922 10.1071 22.34 10.35 22.34Z" fill="currentColor"></path><path d="M17.3803 22.34C17.7462 22.34 18.1038 22.2315 18.4081 22.0282C18.7123 21.825 18.9494 21.536 19.0895 21.198C19.2295 20.8599 19.2661 20.488 19.1947 20.1291C19.1233 19.7702 18.9471 19.4406 18.6884 19.1819C18.4297 18.9231 18.1001 18.7469 17.7412 18.6756C17.3823 18.6042 17.0104 18.6408 16.6723 18.7808C16.3343 18.9209 16.0453 19.158 15.8421 19.4622C15.6388 19.7664 15.5303 20.1241 15.5303 20.49C15.5303 20.9807 15.7252 21.4512 16.0721 21.7982C16.4191 22.1451 16.8896 22.34 17.3803 22.34Z" fill="currentColor"></path><path d="M18.81 17.08H9.17C8.42338 17.0811 7.69803 16.8313 7.11045 16.3707C6.52286 15.91 6.10713 15.2653 5.93 14.54L3.53 4.8C3.45468 4.51286 3.28615 4.25887 3.05086 4.07787C2.81557 3.89688 2.52685 3.79914 2.23 3.8H1C0.734784 3.8 0.48043 3.69464 0.292893 3.5071C0.105357 3.31957 0 3.06521 0 2.8C0 2.53478 0.105357 2.28043 0.292893 2.09289C0.48043 1.90535 0.734784 1.8 1 1.8H2.23C2.97528 1.79831 3.69958 2.04669 4.28699 2.50538C4.8744 2.96406 5.29096 3.60654 5.47 4.33L7.87 14.07C7.94532 14.3571 8.11385 14.6111 8.34914 14.7921C8.58443 14.9731 8.87315 15.0708 9.17 15.07H18.81C18.9542 15.0707 19.0948 15.0255 19.2117 14.941C19.3285 14.8566 19.4155 14.7371 19.46 14.6L22 6.99C22.0361 6.88648 22.0459 6.77559 22.0285 6.66734C22.011 6.55909 21.9669 6.4569 21.9 6.37C21.8365 6.28125 21.7523 6.20936 21.6547 6.16056C21.5571 6.11176 21.4491 6.08754 21.34 6.09H21.17C21.1 6.09 13.89 4.86 10.17 7.4C10.063 7.47682 9.94186 7.53181 9.81358 7.56183C9.6853 7.59185 9.55237 7.5963 9.42237 7.57495C9.29236 7.55359 9.16784 7.50683 9.05591 7.43735C8.94398 7.36787 8.84682 7.27702 8.77 7.17C8.69318 7.06297 8.63819 6.94186 8.60817 6.81358C8.57815 6.6853 8.57369 6.55236 8.59505 6.42236C8.61641 6.29236 8.66316 6.16784 8.73264 6.0559C8.80212 5.94397 8.89297 5.84682 9 5.77C13.21 2.89 20.51 3.99 21.4 4.12C21.8172 4.13473 22.2252 4.24634 22.5917 4.44599C22.9583 4.64564 23.2734 4.92787 23.512 5.27033C23.7507 5.61279 23.9064 6.00609 23.9668 6.41911C24.0272 6.83213 23.9906 7.25354 23.86 7.65L21.36 15.25C21.18 15.7835 20.8371 16.2471 20.3796 16.5755C19.9221 16.9038 19.3731 17.0802 18.81 17.08Z" fill="currentColor"></path></svg></div></div><p class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-4 jnogdb esPXDo fvZOrd">0 carts</p></div></button></div>
+            </div>
+    </div>
+    <div class="sc-a1bfa56f-11 gYKXjE">
+        <div class="sc-74317131-0 buPIAF">
+            <div class="sc-74317131-1 gzaSyH">
+                <div class="sc-9f158ad0-0 sc-9f158ad0-1 sc-e915f54a-0 ereGdi RnqMW sc-74317131-2 jquLak" direction="column">
+                    <form role="search" autoComplete="off" class="sc-e915f54a-2 jxVbp">
+                        <div role="combobox" aria-haspopup="listbox" aria-owns="Global-Home-Page-Multi-Store-Search-Bar-listbox" aria-expanded="false" id="Global-Home-Page-Multi-Store-Search-Bar-combobox" class="sc-e915f54a-1 fyUWkC">
+                            <div class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-e915f54a-3 jnogdb esPXDo hYQZRf gOdSCU">
+                                <div class="sc-e915f54a-5 dRaREJ"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="sc-e915f54a-8 hFvxTH"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.82 15.09a8.243 8.243 0 0 0 5.84 2.42c.51 0 1.03-.05 1.53-.15a1 1 0 0 0 .8-1.17c-.1-.55-.62-.9-1.17-.8-2.03.39-4.13-.25-5.59-1.72A6.21 6.21 0 0 1 3.4 9.25c0-1.67.66-3.24 1.84-4.42A6.21 6.21 0 0 1 9.66 3c1.67 0 3.24.65 4.43 1.83a6.265 6.265 0 0 1 .01 8.84.996.996 0 0 0-.09 1.49l7.68 7.68c.2.19.45.29.71.29.26 0 .51-.09.7-.29a.996.996 0 0 0 0-1.41l-7.003-7.003c2.609-3.232 2.41-8-.597-11.007A8.199 8.199 0 0 0 9.66 1c-2.21 0-4.28.86-5.84 2.41A8.199 8.199 0 0 0 1.4 9.25c0 2.21.86 4.28 2.42 5.84Z"></path></svg>
+                                    <span
+                                        class="sc-e915f54a-6 hHmWco">What are you looking for?</span>
+                                </div><input name="product-search" placeholder="What are you looking for?" maxLength="75" aria-label="Product Search: suggestions appear below" id="Global-Home-Page-Multi-Store-Search-Bar-textbox" aria-autocomplete="list" type="text"
+                                    class="sc-e915f54a-4 hjpbwi" value="" /></div>
+                        </div><button class="index-browser__ButtonWrapper-sc-70e049ed-0 fnnYzn index-browser__Button-sc-70e049ed-1 sc-e915f54a-10 lhtNZb cuedpT" aria-label="Submit Search" type="submit"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.82 15.09a8.243 8.243 0 0 0 5.84 2.42c.51 0 1.03-.05 1.53-.15a1 1 0 0 0 .8-1.17c-.1-.55-.62-.9-1.17-.8-2.03.39-4.13-.25-5.59-1.72A6.21 6.21 0 0 1 3.4 9.25c0-1.67.66-3.24 1.84-4.42A6.21 6.21 0 0 1 9.66 3c1.67 0 3.24.65 4.43 1.83a6.265 6.265 0 0 1 .01 8.84.996.996 0 0 0-.09 1.49l7.68 7.68c.2.19.45.29.71.29.26 0 .51-.09.7-.29a.996.996 0 0 0 0-1.41l-7.003-7.003c2.609-3.232 2.41-8-.597-11.007A8.199 8.199 0 0 0 9.66 1c-2.21 0-4.28.86-5.84 2.41A8.199 8.199 0 0 0 1.4 9.25c0 2.21.86 4.28 2.42 5.84Z"></path></svg></button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sc-a1bfa56f-0 kIDucW">
+        <div class="sc-a1bfa56f-2 isduWh"></div>
+    </div>
+    </header>
+    <div id="main-content" class="sc-bd0b4679-0 dUMYCG">
+        <div class="sc-d36e0e8b-0 bJCUEW">
+            <div class="sc-3542449f-3 cfNZgA">
+                <div class="sc-3542449f-1 eiXJLC">
+                    <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Row-sc-47bf4483-2 sc-3542449f-0 eFJlUJ bJUqtn">
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                        <div class="sc-f962f4b-0 kEbDFj" width="100%" height="75"></div>
+                    </div>
+                </div>
+                <div class="sc-3542449f-2 bdMeco">
+                    <div class="sc-f962f4b-0 dWVsyM" width="100%" height="76"></div>
+                    <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Row-sc-47bf4483-2 dUIWIk">
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                    </div>
+                    <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Row-sc-47bf4483-2 sc-3542449f-0 eFJlUJ bJUqtn">
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                        <div class="sc-f962f4b-0 iLKOPP" width="200" height="150"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="sc-5c7a83a1-0 gcBpvK">
+        <footer class="sc-ecfaddb4-0 iaMJuu">
+            <div class="sc-d36e0e8b-0 sc-ecfaddb4-1 ghCAMt hxkfVo">
+                <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Column-sc-47bf4483-1 coNQrQ">
+                    <div class="sc-ecfaddb4-2 cRDpnj">
+                        <div class="sc-ecfaddb4-3 ikLrbq"><a href="/"><img alt="home" loading="lazy" width="109" height="36.8" decoding="async" data-nimg="1" style="color:transparent" src="https://object-storage.shipt.com/web/assets/headerLogo-new.svg"/></a></div>
+                        <div class="sc-5c7a83a1-1 giAYcN">
+                            <section class="sc-5c7a83a1-2 kzsWdV">
+                                <p id="footer-section-0" class="sc-c2a77bb9-0 sc-8ed00356-0 sc-8ed00356-1 sc-5c7a83a1-3 jnogdb kDYalJ jKWVBd gxoLYS">Using Shipt</p>
+                                <ul aria-labelledby="footer-section-0" class="sc-5c7a83a1-4 iduCCq">
+                                    <li><a href="https://www.shipt.com/gift" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Gift a Membership</a></li>
+                                    <li><a href="https://help.shipt.com" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Help</a></li>
+                                    <li><a href="https://www.shipt.com/signup?referrerUrl=https%3A%2F%2Fwww.shipt.com" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Sign up</a></li>
+                                </ul>
+                            </section>
+                            <section class="sc-5c7a83a1-2 kzsWdV">
+                                <p id="footer-section-1" class="sc-c2a77bb9-0 sc-8ed00356-0 sc-8ed00356-1 sc-5c7a83a1-3 jnogdb kDYalJ jKWVBd gxoLYS">Resources</p>
+                                <ul aria-labelledby="footer-section-1" class="sc-5c7a83a1-4 iduCCq">
+                                    <li><a href="https://www.shipt.com/about/" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">About us</a></li>
+                                    <li><a href="https://www.shipt.com/partner/" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Partner with us</a></li>
+                                    <li><a href="https://www.shipt.com/careers/" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Careers</a></li>
+                                    <li><a href="https://corporate.shipt.com/news" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Press</a></li>
+                                    <li><a href="https://www.shipt.com/delivery/grocery-delivery" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Grocery delivery</a></li>
+                                    <li><a href="https://www.shipt.com/brand-resources" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Brand resources</a></li>
+                                    <li><a href="/sitemap-index" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Sitemap</a></li>
+                                </ul>
+                            </section>
+                            <section class="sc-5c7a83a1-2 kzsWdV">
+                                <p id="footer-section-2" class="sc-c2a77bb9-0 sc-8ed00356-0 sc-8ed00356-1 sc-5c7a83a1-3 jnogdb kDYalJ jKWVBd gxoLYS">Community</p>
+                                <ul aria-labelledby="footer-section-2" class="sc-5c7a83a1-4 iduCCq">
+                                    <li><a href="/shopper/be-a-shopper" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Get paid to shop</a></li>
+                                    <li><a href="https://www.shipt.com/blog/" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Blog</a></li>
+                                    <li><a href="https://www.shipt.com/contact/" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Contact us</a></li>
+                                    <li><a href="https://www.shipt.com/trustandsafety" class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-2 sc-5c7a83a1-5 jnogdb esPXDo hYQZRf inEQlw">Trust and safety</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Column-sc-47bf4483-1 sc-ecfaddb4-4 iLXtlB lfNPED">
+                        <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Row-sc-47bf4483-2 koTaaR"><a aria-label="facebook" target="_blank" href="https://www.facebook.com/Shipt" rel="noreferrer" class="sc-ecfaddb4-10 fsUUtE"><svg fill="none" viewBox="0 0 24 24" class="index-browser__FacebookIcon-sc-4b2923a3-0 cjwXeu"><path clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0C15.1826 0 18.2348 1.26428 20.4853 3.51472C22.7357 5.76515 24 8.8174 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM14.4016 7.19026H15.736L15.7456 4.90546C15.0888 4.83426 14.4286 4.79901 13.768 4.79986C12.8659 4.73421 11.9805 5.06819 11.3465 5.71328C10.7125 6.35837 10.3939 7.24943 10.4752 8.15026V10.0703H8.26719V12.6335H10.4752V19.1999H13.1536V12.6335H15.3616L15.6496 10.0703H13.1344V8.43826C13.1344 7.69906 13.336 7.19026 14.4016 7.19026Z" fill="currentColor" fill-rule="evenodd"></path></svg></a>
+                            <a
+                                aria-label="instagram" target="_blank" href="https://www.instagram.com/shipt/" rel="noreferrer" class="sc-ecfaddb4-10 fsUUtE"><svg fill="none" viewBox="0 0 24 24" class="index-browser__InstagramIcon-sc-3f9951cf-0 gOWDeE"><path clip-rule="evenodd" d="M17.6176 7.75635C17.3757 7.13007 16.8807 6.63503 16.2544 6.39315C15.8271 6.23423 15.3758 6.1498 14.92 6.14355H12.04H9.15999C8.70418 6.1498 8.25283 6.23423 7.82559 6.39315C7.17019 6.61653 6.64452 7.11417 6.38559 7.75635C6.22666 8.1836 6.14223 8.63495 6.13599 9.09075V11.9708V14.8508C6.14223 15.3066 6.22666 15.7579 6.38559 16.1852C6.62746 16.8114 7.12251 17.3065 7.74879 17.5484C8.17603 17.7073 8.62738 17.7917 9.08319 17.798H11.9632H14.8432C15.299 17.7917 15.7503 17.7073 16.1776 17.5484C16.8039 17.3065 17.2989 16.8114 17.5408 16.1852C17.6997 15.7579 17.7841 15.3066 17.7904 14.8508V11.9708V9.09075C17.8089 8.63937 17.7504 8.18814 17.6176 7.75635ZM12.0014 15.6958C9.96012 15.6958 8.30536 14.041 8.30536 11.9998C8.30536 9.95854 9.96012 8.30379 12.0014 8.30379C14.0426 8.30379 15.6974 9.95854 15.6974 11.9998C15.6974 12.98 15.308 13.9201 14.6148 14.6133C13.9217 15.3064 12.9816 15.6958 12.0014 15.6958ZM15.0418 8.4422C15.1755 8.76506 15.4906 8.97556 15.84 8.97556V9.02356C16.0777 9.02393 16.3051 8.92634 16.4686 8.75378C16.6321 8.58121 16.7172 8.34891 16.704 8.11156C16.704 7.76211 16.4935 7.44706 16.1707 7.31333C15.8478 7.1796 15.4762 7.25352 15.2291 7.50062C14.982 7.74773 14.908 8.11935 15.0418 8.4422Z" fill="currentColor" fill-rule="evenodd"></path><path d="M11.9996 14.3996C13.3251 14.3996 14.3996 13.3251 14.3996 11.9996C14.3996 10.6741 13.3251 9.59961 11.9996 9.59961C10.6741 9.59961 9.59961 10.6741 9.59961 11.9996C9.59961 13.3251 10.6741 14.3996 11.9996 14.3996Z" fill="currentColor"></path><path clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0C15.1826 0 18.2348 1.26428 20.4853 3.51472C22.7357 5.76515 24 8.8174 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM18.8659 16.7134C19.0757 16.1542 19.1893 15.5634 19.2019 14.9662V11.9998V9.03344C19.1795 8.41724 19.0495 7.80969 18.8179 7.23824C18.4433 6.27337 17.6803 5.51042 16.7155 5.13584C16.1562 4.926 15.5655 4.81239 14.9683 4.79984H12.0019H9.03547C8.43606 4.82466 7.84523 4.95127 7.28827 5.17424C6.3026 5.53859 5.51992 6.30729 5.13788 7.28624C4.92785 7.84544 4.81424 8.43623 4.80188 9.03344V11.9998V14.9662C4.84482 15.5691 4.99094 16.1601 5.23388 16.7134C5.60743 17.679 6.37074 18.4423 7.33628 18.8158C7.89553 19.0257 8.48628 19.1393 9.08348 19.1518H12.0499H15.0163C15.6135 19.1393 16.2042 19.0257 16.7635 18.8158C17.7283 18.4413 18.4913 17.6783 18.8659 16.7134Z" fill="currentColor" fill-rule="evenodd"></path></svg></a>
+                                <a
+                                    aria-label="pinterest" target="_blank" href="https://www.pinterest.com/shipt/" rel="noreferrer" class="sc-ecfaddb4-10 fsUUtE"><svg fill="none" viewBox="0 0 24 24" class="index-browser__PinterestIcon-sc-acf5a06c-0 iNWuVL"><path d="M23.9954 12.3292C24.159 6.36455 19.9149 1.18595 14.0343 0.174782C8.15366 -0.836382 2.42353 2.62716 0.585383 8.30389C-1.25277 13.9806 1.35962 20.1455 6.7168 22.7732C6.82384 22.8284 6.95227 22.8221 7.0534 22.7567C7.15453 22.6913 7.21289 22.5767 7.20636 22.4564C7.16206 21.6978 7.21367 20.9367 7.35995 20.191L8.50226 15.3914C8.72517 14.5754 8.77099 13.7211 8.63665 12.886C8.57719 12.5695 8.54826 12.2481 8.55025 11.9261C8.55025 10.1502 9.57737 8.8255 10.8541 8.8255C11.3164 8.8194 11.7588 9.01318 12.0677 9.35709C12.3767 9.701 12.5222 10.1616 12.4667 10.6206C12.4667 11.7149 11.766 13.3467 11.4108 14.8634C11.265 15.4386 11.4035 16.0489 11.7834 16.5048C12.1633 16.9607 12.7386 17.207 13.3307 17.1672C15.5289 17.2536 17.276 14.8154 17.276 11.3693C17.3214 9.95482 16.7701 8.5864 15.7567 7.59856C14.7433 6.61073 13.3612 6.09451 11.9484 6.17611C10.44 6.11045 8.97065 6.66552 7.88243 7.71202C6.79421 8.75853 6.18216 10.2051 6.18884 11.7149C6.20018 12.7515 6.53587 13.7585 7.14877 14.5946C7.23899 14.693 7.2717 14.8311 7.23516 14.9594L6.87999 16.4089C6.82239 16.6393 6.6976 16.6873 6.45762 16.5817C4.84495 15.8713 3.83703 13.5387 3.83703 11.6669C3.83703 7.64479 6.7168 3.98748 12.2652 3.98748C16.7 3.94909 20.1557 7.09764 20.1557 11.3117C20.1557 15.7082 17.3816 19.2407 13.5419 19.2407C12.6005 19.2523 11.6891 18.9096 10.9885 18.2808C10.9085 18.1966 10.789 18.163 10.6769 18.193C10.5648 18.223 10.4781 18.3119 10.4509 18.4247L9.81735 20.8245C9.58519 21.6262 9.26317 22.399 8.85743 23.1284C8.80658 23.2209 8.80221 23.332 8.84563 23.4283C8.88904 23.5245 8.97518 23.5948 9.07821 23.6179C10.0822 23.8711 11.1146 23.9937 12.15 23.9827C18.5423 23.8029 23.7112 18.7178 23.9954 12.3292Z" fill="currentColor"></path></svg></a>
+                                    <a
+                                        aria-label="twitter" target="_blank" href="https://twitter.com/Shipt" rel="noreferrer" class="sc-ecfaddb4-10 fsUUtE"><svg fill="none" viewBox="0 0 24 24" class="index-browser__TwitterIcon-sc-959a0b39-0 cWuLNh"><path clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0C15.1826 0 18.2348 1.26428 20.4853 3.51472C22.7357 5.76515 24 8.8174 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM17.9116 9.28313C18.3866 8.89594 18.8008 8.43966 19.1404 7.92953C19.1628 7.86433 19.1418 7.79206 19.088 7.74899C19.0342 7.70592 18.9591 7.70133 18.9004 7.73753C18.5911 7.878 18.2698 7.99045 17.9404 8.07353C18.3168 7.71681 18.5974 7.27114 18.7564 6.77753C18.7788 6.71233 18.7578 6.64006 18.704 6.59699C18.6502 6.55392 18.5751 6.54933 18.5164 6.58553C18.0431 6.86482 17.5323 7.07495 16.9996 7.20953H16.9036C16.804 7.20872 16.7083 7.17111 16.6348 7.10393C16.0678 6.60273 15.3371 6.32616 14.5804 6.32633C14.2546 6.33003 13.9311 6.38178 13.6204 6.47993C12.6126 6.79415 11.8437 7.61411 11.5948 8.63993C11.4898 9.02087 11.454 9.41755 11.4892 9.81113C11.5004 9.83884 11.5004 9.86982 11.4892 9.89753C11.4615 9.90874 11.4305 9.90874 11.4028 9.89753C9.21302 9.69964 7.19706 8.62238 5.81557 6.91193C5.78512 6.86771 5.73486 6.84131 5.68117 6.84131C5.62748 6.84131 5.57723 6.86771 5.54677 6.91193C4.84118 8.13126 5.04622 9.673 6.04597 10.6655C5.79748 10.6059 5.55842 10.5122 5.33557 10.3871C5.28499 10.3602 5.22396 10.3617 5.17481 10.3912C5.12565 10.4207 5.09557 10.4738 5.09557 10.5311C5.0723 11.767 5.78522 12.8986 6.90997 13.4111H6.84277C6.66885 13.4114 6.49529 13.3953 6.32437 13.3631C6.26812 13.3536 6.21101 13.3742 6.17372 13.4174C6.13644 13.4606 6.1244 13.5201 6.14197 13.5743C6.49734 14.6817 7.44247 15.4971 8.58997 15.6863C7.63976 16.3167 6.52383 16.6508 5.38357 16.6463H5.02837C4.91898 16.6475 4.82422 16.7225 4.79797 16.8287C4.79454 16.925 4.84685 17.0147 4.93237 17.0591C6.22981 17.8133 7.70368 18.2107 9.20437 18.2111C10.4625 18.2206 11.7075 17.9552 12.8524 17.4335C13.8722 16.9582 14.7813 16.2748 15.5212 15.4271C16.2276 14.6224 16.7807 13.6951 17.1532 12.6911C17.5147 11.7336 17.7032 10.7194 17.71 9.69593C17.7107 9.53477 17.7849 9.38275 17.9116 9.28313Z" fill="currentColor" fill-rule="evenodd"></path></svg></a>
+                        </div>
+                        <div class="index-browser__Stack-sc-47bf4483-0 index-browser__Row-sc-47bf4483-2 cldXNV"><a aria-label="Shipt App in Apple App Store" target="_blank" href="https://apps.apple.com/us/app/shipt-shopper-shop-for-pay/id976353472" rel="noreferrer"><img alt="apple store badge" loading="lazy" width="120" height="40" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2Fassets%2Fapp-store-badge.webp&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fassets%2Fapp-store-badge.webp&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fassets%2Fapp-store-badge.webp&amp;w=256&amp;q=75"/></a>
+                            <a
+                                aria-label="Shipt App in Google Play" target="_blank" href="https://play.google.com/store/apps/details?id=com.shipt.shopper&amp;hl=en_US" rel="noreferrer"><img alt="google play badge" loading="lazy" width="135" height="40" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2Fassets%2Fgoogle-play-badge.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fassets%2Fgoogle-play-badge.webp&amp;w=384&amp;q=75 2x"
+                                    src="/_next/image?url=%2Fassets%2Fgoogle-play-badge.webp&amp;w=384&amp;q=75" /></a>
+                        </div>
+                        <div><img alt="" loading="lazy" width="302" height="112" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2Fassets%2Fnewsweek2024.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fassets%2Fnewsweek2024.webp&amp;w=640&amp;q=75 2x"
+                                src="/_next/image?url=%2Fassets%2Fnewsweek2024.webp&amp;w=640&amp;q=75" /></div>
+                    </div>
+                    <p class="sc-c2a77bb9-0 sc-ce0f9692-0 sc-ce0f9692-4 sc-ecfaddb4-5 jnogdb esPXDo fvZOrd doYRlb">©
+                        <!-- -->Shipt, Inc. and its services are not necessarily affiliated or endorsed by the retailers on this site. Shipt does not operate in Alaska, Wyoming, and West Virginia.</p>
+                    <div class="sc-ecfaddb4-6 eerwcs">
+                        <div class="sc-ecfaddb4-7 dDOmRw"><a href="https://www.shipt.com/terms-of-service/" class="sc-ecfaddb4-8 cvpRYO">Terms of service</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy-policy/" class="sc-ecfaddb4-8 cvpRYO">Privacy Notice</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy-policy/#california" class="sc-ecfaddb4-8 cvpRYO">CA privacy rights</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy/intake-form" class="sc-ecfaddb4-8 cvpRYO">Do not sell or share my personal information</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy/intake-form" class="sc-ecfaddb4-8 cvpRYO">Opt Out of Targeted Advertising</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy/intake-form" class="sc-ecfaddb4-8 cvpRYO">Privacy Rights</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.shipt.com/privacy-policy/#online-ad-choices" class="sc-ecfaddb4-8 cvpRYO">Interest-based ads</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://healthy.kaiserpermanente.org/front-door/machine-readable" class="sc-ecfaddb4-8 cvpRYO">Kaiser Permanente</a></div>
+                        <div class="sc-ecfaddb4-7 dDOmRw"><span class="sc-ecfaddb4-9 bUagor"></span><a href="https://www.bcbsal.org/web/tcr" class="sc-ecfaddb4-8 cvpRYO">BCBS of Alabama</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json" nonce="265557a8ede6141d847ade7f4d64239c">
+        {
+            "props": {
+                "pageProps": {
+                    "ssrContext": {
+                        "req": {
+                            "cookies": {
+                                "segway_has_auth": "false",
+                                "ajs_anonymous_id": "0994578d-6157-4696-8a6c-2fd6479b8f89",
+                                "guest_user_address": "{\"street1\":\"\",\"city\":\"\",\"state\":\"\",\"zip_code\":\"35208\"}",
+                                "guest_address_removal_flow": "true",
+                                "rxVisitor": "17071888595162R0GMU8GQNSC1MTE6NFMCD175CMMDMI8",
+                                "_gcl_au": "1.1.1673368911.1707188861",
+                                "_cs_c": "0",
+                                "sm_uuid": "1707189415597",
+                                "_ga": "GA1.1.987992971.1707188862",
+                                "FPID": "FPID2.2.RZXeQoJZH3ZOTqUtpFGsMiNor+LUT9gDcWh1HE274LU=.1707188862",
+                                "FPAU": "1.1.1673368911.1707188861",
+                                "_tt_enable_cookie": "1",
+                                "_ttp": "kmDgVwc21khkTJLdJiHb4wIfrH-",
+                                "_pin_unauth": "dWlkPVpqVmpOV0ZsWW1JdE4yWmtNQzAwWkRCa0xUbG1NVGt0TldSaVlUYzVabUl6T0RnNA",
+                                "_fbp": "fb.1.1707188862588.1647616664",
+                                "mdLogger": "false",
+                                "kampyle_userid": "b6c9-eaf2-10bf-43f3-75df-9e21-9cf2-c8fb",
+                                "dtCookie": "v_4_srv_4_sn_FAA553A6A7922ABA341103BD3FF66E7F_perc_100000_ol_0_mul_1_app-3A12c5439b9411138d_1_rcs-3Acss_0",
+                                "dtSa": "-",
+                                "_cs_cvars": "{\"5\":[\"zip\",\"35208\"]}",
+                                "mf_adf2ceb3-c220-4c96-a49c-f84d433b0f9b": "||1707274596480||0||||0|0|92.06733",
+                                "_uetsid": "e4184050c49c11eea1a19f34ac3c0eec",
+                                "_uetvid": "10871fc062cd11ee8a4d398a7e566a5f",
+                                "FPLC": "ZA1E5TSDPdOSoTdYZesm3T5eklJa/6BmIyiULooBEPMKaiA2fmTXEAWOGi8Hwt9HW0O12rIu22ibrr3jS7XTpBlVuQRhAd58NgWeAj4pVkToVIesaMUNpEYL6xk5Zw==",
+                                "_derived_epik": "dj0yJnU9R010RWxRSzl2RnpuSWI1bHc1VUJtSUtyS0c3VTFJNlMmbj1KTThmUGZ6RWtSWjRWTWlyTUpCYzRRJm09MSZ0PUFBQUFBR1hDOFdZJnJtPTEmcnQ9QUFBQUFHWEM4V1kmc3A9Mg",
+                                "_gcl_aw": "GCL.1707274599.Cj0KCQiAzoeuBhDqARIsAMdH14FeJP5BES0Iz1QDreJr-abMDufbjwjBE9dRRQSw3ZB2-wyu9TGSTR8aAsD2EALw_wcB",
+                                "_gcl_dc": "GCL.1707274599.Cj0KCQiAzoeuBhDqARIsAMdH14FeJP5BES0Iz1QDreJr-abMDufbjwjBE9dRRQSw3ZB2-wyu9TGSTR8aAsD2EALw_wcB",
+                                "_clck": "ud021p|2|fj2|0|1497",
+                                "kampyleUserSession": "1707274599640",
+                                "kampyleUserSessionsCount": "2",
+                                "rxvt": "1707276407584|1707274595802",
+                                "dtPC": "4$274595798_333h-vWCKIUMFVRDKPVDITFKLSRKKPQHIOPUHP-0e0",
+                                "_cs_id": "96f16e42-f4c6-a101-cac5-1cd543c4787f.1707188860.2.1707274607.1707274596.1.1741352860789.1",
+                                "_cs_s": "2.0.0.1707276407883",
+                                "kampyleSessionPageCounter": "3",
+                                "FPGCLAW": "GCL.1707274608.Cj0KCQiAzoeuBhDqARIsAMdH14FeJP5BES0Iz1QDreJr-abMDufbjwjBE9dRRQSw3ZB2-wyu9TGSTR8aAsD2EALw_wcB",
+                                "FPGCLDC": "GCL.1707274608.Cj0KCQiAzoeuBhDqARIsAMdH14FeJP5BES0Iz1QDreJr-abMDufbjwjBE9dRRQSw3ZB2-wyu9TGSTR8aAsD2EALw_wcB",
+                                "_clsk": "zn7smy|1707274608242|2|1|w.clarity.ms/collect",
+                                "_ga_FK87ECB8F2": "GS1.1.1707274597.2.1.1707274608.0.0.0",
+                                "dtLatC": "1"
+                            }
+                        }
+                    },
+                    "routeData": {
+                        "url": "/shop/stores",
+                        "authentication": true,
+                        "trackingName": "global_home",
+                        "crew": "shop_and_browse"
+                    },
+                    "disableSegment": false,
+                    "reactQueryState": {},
+                    "staticData": {},
+                    "cmsData": {}
+                },
+                "__N_SSP": true
+            },
+            "page": "/shop/stores",
+            "query": {},
+            "buildId": "hhFGbGwB5hdzNeBzCJyPn",
+            "isFallback": false,
+            "dynamicIds": [89028],
+            "gssp": true,
+            "customServer": true,
+            "scriptLoader": []
+        }
+    </script>
+</body>
+
+</html>

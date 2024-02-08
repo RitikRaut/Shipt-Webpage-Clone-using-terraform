@@ -1,0 +1,3 @@
+variable "mybucket" {
+  default = "ritikterrafromprojectnew"
+}
